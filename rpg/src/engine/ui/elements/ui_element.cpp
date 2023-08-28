@@ -66,9 +66,9 @@ void UIElement::update(float delta_time) {
             break;
     }
     connected_texture = resource_manager.getConnectedTexture(texture_key);
-    // for (int i = 0; i < sprite_grid.size(); i++) {
-    //     sprite_grid[i].setTextureRect(connected_texture->getRect(neighbour_grid[i]));
-    // }
+    for (int i = 0; i < vertex_quad_grid.size(); i++) {
+        vertex_quad_grid[i].setTextureRect(connected_texture->getRect(neighbour_grid[i]));
+    }
 }
 
 void UIElement::move(const sf::Vector2f &offset) {
