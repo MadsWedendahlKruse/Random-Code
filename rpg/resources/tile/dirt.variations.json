@@ -1,0 +1,9 @@
+{
+    "variations": [
+        { "weight": 1 },
+        { "weight": 20 },
+        { "weight": 40 },
+        { "weight": 20 },
+        { "weight": 40 }
+    ]
+}

@@ -1,0 +1,7 @@
+MAKE EVERYTHING INTO VERTICES INSTEAD OF SPRITES!!!
+
+Button class almost seems a bit redundant. 
+Pretty much all of its functionanlity is included in the base UIElement class. 
+The only addition is that it draws a label in the middle of the button.
+Maybe the whole clicking thing should be moved to the button class?
+On the other hand it's quite convenient to have it in the ButtonList so that it can just pass the click on to the correct button.
