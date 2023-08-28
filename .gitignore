@@ -1,3 +1,7 @@
 *.settings
 *.classpath
 *.project
+build/*
+rpg/build/*
+snake_cpp/build/*
+tetris/build/*
