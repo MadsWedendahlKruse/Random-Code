@@ -5,3 +5,6 @@ build/*
 rpg/build/*
 snake_cpp/build/*
 tetris/build/*
+.vscode/*
+*/.vscode/*
+*/.VSCodeCounter/*
